@@ -13,6 +13,9 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY
 
 module.exports = {
+  solidity: {
+    compilers: [{ version: "0.8.8" }, { version: "0.6.6" }]
+  },
   defaultNetwork: "hardhat", //(private key, rpc url)
   networks: {
     goerli: {
@@ -26,7 +29,7 @@ module.exports = {
       chainId: 31337
     }
   },
-  solidity: "0.8.9",
+  //solidity: "0.8.9",
   etherscan: {
     apiKey: ETHERSCAN_API_KEY
   },
