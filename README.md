@@ -11,3 +11,9 @@ GAS_REPORT=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+Unit tests are done locally
+- local hardhat
+- forked hardhat
+
+Staging tests can be done on a testnet (LAST STOP!!)
