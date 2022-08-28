@@ -38,8 +38,8 @@ module.exports = {
         enabled: true,
         outputFile: "gas-report.txt",
         noColors: true,
-        currency: "KRW"
-        // coinmarketcap: COINMARKETCAP_API_KEY
+        currency: "KRW",
+        coinmarketcap: COINMARKETCAP_API_KEY
     },
     namedAccounts: {
         deployer: {
